@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#container{
+    height: 400px;
+    width: 330px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    flex-direction: column;
+    cursor: pointer;
+  
+    
+}
+#container img{
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+#container i{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    transform: translate(6%, -19%) scale(0);
+    opacity: 0.8;
+    transition: all ease 0.5s;
+}
+
+#container{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
