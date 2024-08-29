@@ -18,7 +18,6 @@ img.addEventListener("dblclick", function(event) {
     icon.style.top = `${y}px`;
     icon.style.transform = "scale(1)";
     icon.style.color = "red";
-
     setTimeout(function() {
         icon.style.transform = "scale(0)";
         icon.style.color = "white";
